@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f8f8f8;
+}
+
+.logo {
+  height: 50px;
+}
+
+.opcoes a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.opcoes .destaque {
+  color: #007BFF;
+}
+
+.faixa {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+.faixa .quadro {
+  text-align: center;
+}
+
+.faixa .quadro img {
+  height: 50px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.faixa .destaque {
+  font-weight: bold;
+}
+
+.produtos {
+  padding: 20px;
+  background: #fff;
+}
+
+.produtos .titulo {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.produtos .quadros {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.produtos .quadro {
+  width: calc(25% - 20px);
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #f9f9f9;
+}
+
+.produtos .quadro .foto {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.produtos .quadro .texto {
+  padding: 20px;
+}
+
+.produtos .quadro .texto h3 {
+  margin-top: 0;
+}
+
+.produtos .quadro .texto p {
+  margin-bottom: 20px;
+}
+
+.produtos .quadro .texto a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}

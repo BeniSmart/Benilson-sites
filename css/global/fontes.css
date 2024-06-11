@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('fonte-bold');
+}
+@font-face {
+  font-family: 'fonte-regular';
+  src: url('fonte-regular.woff2');
+}
